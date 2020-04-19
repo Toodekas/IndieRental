@@ -1,6 +1,6 @@
 # IndieRental
 
-A indie game rental web application used to test and learn about vaadin
+A indie game rental web application used to test and learn about Vaadin
 
 
 To run this project you need the latest JDK and maven installed. 
