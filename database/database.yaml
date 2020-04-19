@@ -1,0 +1,141 @@
+---
+game:
+- name: "Bastion"
+  stockCount: 25
+  gameType: "REGULAR"
+  type: 2
+  id: 1
+- name: "Axiom Verge"
+  stockCount: 2
+  gameType: "OLD"
+  type: 3
+  id: 2
+- name: "Rouge Legacy"
+  stockCount: 37
+  gameType: "NEW"
+  type: 1
+  id: 3
+- name: "Firewatch"
+  stockCount: 1
+  gameType: "REGULAR"
+  type: 2
+  id: 12
+- name: "Inside"
+  stockCount: 3
+  gameType: "NEW"
+  type: 1
+  id: 25
+- name: "Hellblade: Senua’s Sacrifice"
+  stockCount: 2
+  gameType: "OLD"
+  type: 3
+  id: 26
+- name: "Gone Home"
+  stockCount: 11
+  gameType: "REGULAR"
+  type: 2
+  id: 27
+- name: "Fez"
+  stockCount: 0
+  gameType: "NEW"
+  type: 1
+  id: 50
+- name: "The Stanley Parable"
+  stockCount: 7
+  gameType: "OLD"
+  type: 3
+  id: 125
+- name: "Super Meat Boy"
+  stockCount: 2
+  gameType: "REGULAR"
+  type: 2
+  id: 130
+- name: "Shovel Knight"
+  stockCount: 8
+  gameType: "REGULAR"
+  type: 2
+  id: 131
+- name: "Celeste"
+  stockCount: 5
+  gameType: "NEW"
+  type: 1
+  id: 214
+customer:
+- name: "Mari Maasikas"
+  points: 32
+  id: 1
+- name: "Martin Toode"
+  points: 0
+  id: 2
+- name: "Juhan Liiv"
+  points: 455
+  id: 3
+- name: "Mikk Pood"
+  points: 25
+  id: 5
+order:
+- customerC:
+    name: "Martin Toode"
+    points: 0
+    id: 2
+  customer: 2
+  localDate:
+    year: 2020
+    month: 3
+    day: 31
+  orderDate: "2019-11-20"
+  games:
+  - gameObject:
+      name: "Rouge Legacy"
+      stockCount: 37
+      gameType: "NEW"
+      type: 1
+      id: 3
+    game: 3
+    gameType: "NEW"
+    type: 1
+    days: 15
+    paidByBonus: false
+    returnedDate: null
+    returnedDay: null
+  - gameObject:
+      name: "Hellblade: Senua’s Sacrifice"
+      stockCount: 2
+      gameType: "OLD"
+      type: 3
+      id: 26
+    game: 26
+    gameType: "OLD"
+    type: 3
+    days: 2
+    paidByBonus: true
+    returnedDate: null
+    returnedDay: null
+  items:
+  - gameObject:
+      name: "Rouge Legacy"
+      stockCount: 37
+      gameType: "NEW"
+      type: 1
+      id: 3
+    game: 3
+    gameType: "NEW"
+    type: 1
+    days: 15
+    paidByBonus: false
+    returnedDate: null
+    returnedDay: null
+  - gameObject:
+      name: "Hellblade: Senua’s Sacrifice"
+      stockCount: 2
+      gameType: "OLD"
+      type: 3
+      id: 26
+    game: 26
+    gameType: "OLD"
+    type: 3
+    days: 2
+    paidByBonus: true
+    returnedDate: null
+    returnedDay: null
+  id: 1
